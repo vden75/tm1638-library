@@ -76,6 +76,7 @@ class TM16XX
     byte dataPin;
     byte clockPin;
     byte strobePin;
+    const byte intensityMax = 7; // max intensity data
 };
 
 #endif
